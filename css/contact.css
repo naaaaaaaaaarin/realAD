@@ -1,0 +1,437 @@
+#contact {
+  width: 100%;
+  margin:300px 0; 
+}
+#contact legend {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+}
+#contact label {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+#contact .input_form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 56px auto 0;
+  max-width: 640px;
+  width: 95%;
+}
+#contact .input_form div {
+  display: flex;
+  flex-direction: column;
+  width: 48.2%;
+}
+#contact .input_form div:nth-child(odd) {
+  margin-right: 3.59%;
+}
+#contact .input_form div:nth-child(n+3) {
+  margin-top: 23px;
+}
+#contact .input_form div input {
+  width: 100%;
+  height: 35px;
+  font-size: 18px;
+  border: 1px solid #cdcdcd;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+#contact .textarea_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 23px;
+}
+#contact .textarea_form textarea {
+  border: 1px solid #cdcdcd;
+  border-radius: 5px;
+}
+#contact .textarea_form {
+  max-width: 640px;
+  width: 95%;
+  margin: 0 auto;
+}
+#contact .textarea_form textarea::placeholder {
+  color: #a4a4a4;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 15px 0 0 15px;
+}
+#contact .btn {
+  text-align: center;
+  margin: 35px 0;
+}
+#contact .btn button {
+  cursor: pointer;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 700;
+  background-color: #1b617d;
+  border: none;
+  width: 300px;
+  height: 60px;
+  border-radius: 5px;
+}
+#contact p {
+  color: #7c7c7c;
+  text-align: center;
+  
+}
+#contact p span {
+  color: #2472ff;
+  text-decoration: underline;
+  cursor: pointer;
+}
+#contact .info_modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, .2);
+  z-index: 999;
+}
+#contact .info_modal .box {
+  position: absolute;
+  width: 500px;
+  background-color: #fff;
+  top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#contact .info_modal .box .text {
+  width: 430px;
+  margin: 0 auto;
+}
+#contact .info_modal .box .text h5 {
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  margin: 58px 0 14px;
+}
+#contact .info_modal .box .text p:nth-child(2) {
+  font-size: 14px;
+  color: #bbb;
+  line-height: 20px;
+  padding-bottom: 35px;
+  border-bottom: 1px solid #1b617d;
+}
+#contact .info_modal .box .text .info {
+  margin: 35px 0 58px;
+}
+#contact .info_modal .box .text .info p {
+  text-align: left;
+  font-size: 15px;
+  line-height: 20px;
+  word-break: keep-all;
+  color: #000;
+}
+#contact .info_modal .box .check {
+  width: 100%;
+  background-color: #1b617d;
+  height: 50px;
+  line-height: 50px;
+  cursor: pointer;
+}
+#contact .info_modal .box .check p {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+}
+.none {
+  display: none;
+}
+
+@media screen and (max-width:676px) {
+  #contact {
+    width: 100%;
+    margin:220px 0; 
+  }
+  #contact .w768{
+    width: 90%;
+  }
+  #contact legend {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+  }
+  #contact label {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 8px;
+  }
+  #contact .input_form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 56px;
+    width: 100%
+  }
+  #contact .input_form div {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+  }
+  #contact .input_form div:nth-child(odd) {
+    margin-right: 23px;
+    margin-right: 3.69%;
+  }
+  #contact .input_form div:nth-child(n+3) {
+    margin-top: 23px;
+  }
+  #contact .input_form div input {
+    width: 100%;
+    height: 35px;
+    font-size: 18px;
+  }
+  #contact .textarea_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 23px;
+  }
+  #contact .textarea_form {
+    width: 100%;
+    margin: 0 auto;
+  }
+  #contact .btn {
+    text-align: center;
+    margin: 35px 0;
+  }
+  #contact .btn button {
+    cursor: pointer;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+    background-color: #1b617d;
+    border: none;
+    width: 300px;
+    height: 60px;
+    border-radius: 5px;
+  }
+  #contact p {
+    color: #7c7c7c;
+    text-align: center;
+    font-size: 15px;
+  }
+  #contact p span {
+    color: #2472ff;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  #contact .info_modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .2);
+    z-index: 999;
+  }
+  #contact .info_modal .box {
+    position: absolute;
+    width: 500px;
+    
+    background-color: #fff;
+    top: 254px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  #contact .info_modal .box .text {
+    width: 430px;
+    margin: 0 auto;
+  }
+  #contact .info_modal .box .text h5 {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    margin: 58px 0 14px;
+  }
+  #contact .info_modal .box .text p:nth-child(2) {
+    font-size: 14px;
+    color: #bbb;
+    line-height: 20px;
+    padding-bottom: 35px;
+    border-bottom: 1px solid #1b617d;
+  }
+  #contact .info_modal .box .text .info {
+    margin: 35px 0 58px;
+  }
+  #contact .info_modal .box .text .info p {
+    text-align: left;
+    font-size: 15px;
+    line-height: 20px;
+    word-break: keep-all;
+    color: #000;
+  }
+  #contact .info_modal .box .check {
+    width: 100%;
+    background-color: #1b617d;
+    height: 50px;
+    line-height: 50px;
+    cursor: pointer;
+  }
+  #contact .info_modal .box .check p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .none {
+    display: none;
+  }
+}
+
+@media screen and (max-width:500px) {
+  #contact {
+    margin:100px auto;
+  }
+  #contact .w768 {
+    width: 95%;
+  }
+  #contact legend {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 29px;
+    text-align: center;
+  }
+  #contact label {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 8px;
+  }
+  #contact .input_form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 56px;
+  }
+  #contact .input_form div {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+  #contact .input_form div:nth-child(odd) {
+    margin-right: 0;
+  }
+  #contact .input_form div:nth-child(n+3) {
+    margin-top: 20px;
+  }
+  #contact .input_form div input {
+    width: 95%;
+    height: 50px;
+    font-size: 18px;
+    box-sizing: border-box;
+  }
+  #contact .textarea_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 23px;
+  }
+  #contact .textarea_form {
+    width: 100%;
+    height: 128px;
+    margin: 0 auto;
+  }
+  #contact .textarea_form textarea {
+    padding: 15px 0 0 15px;
+  }
+
+  #contact .btn {
+    text-align: center;
+    margin: 35px 0;
+  }
+  #contact .btn button {
+    cursor: pointer;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+    background-color: #1b617d;
+    border: none;
+    width: 76.92%;
+    height: 60px;
+    border-radius: 5px;
+  }
+  #contact p {
+    color: #7c7c7c;
+    text-align: center;
+    font-size: 16px;
+    line-height: 22px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  #contact p span {
+    color: #2472ff;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  #contact .info_modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .2);
+    z-index: 999;
+  }
+  #contact .info_modal .box {
+    position: absolute;
+    width: 84.61%;
+    background-color: #fff;
+    top: 104px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  #contact .info_modal .box .text {
+    width: 95%;
+    margin: 0 auto;
+  }
+  #contact .info_modal .box .text h5 {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    margin: 39px 0 14px;
+  }
+  #contact .info_modal .box .text p:nth-child(2) {
+    font-size: 14px;
+    color: #bbb;
+    line-height: 20px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #1b617d;
+    width: 100%;
+    text-align: center;
+  }
+  #contact .info_modal .box .text .info {
+    margin: 24px 0 39px;
+  }
+  #contact .info_modal .box .text .info p {
+    text-align: left;
+    font-size: 15px;
+    line-height: 20px;
+    word-break: keep-all;
+    color: #000;
+    width: 100%;
+  }
+  #contact .info_modal .box .check {
+    width: 100%;
+    background-color: #1b617d;
+    height: 50px;
+    line-height: 50px;
+    cursor: pointer;
+  }
+  #contact .info_modal .box .check p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 50px;
+    width: 100%;
+  }
+  .none {
+    display: none;
+  }
+}
